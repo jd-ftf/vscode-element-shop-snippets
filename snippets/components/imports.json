@@ -1,0 +1,31 @@
+
+{
+    "el-row": {
+      "prefix": "el-row",
+      "body": [
+        "import { Row } from '@jdpop/element-ui'",
+        "Vue.use(Row)"
+      ]
+    },
+    "el-col": {
+      "prefix": "el-col",
+      "body": [
+        "import { Col } from '@jdpop/element-ui'",
+        "Vue.use(Col)"
+      ]
+    },
+    "el-button": {
+      "prefix": "el-button",
+      "body": [
+        "import { Button } from '@jdpop/element-ui'",
+        "Vue.use(Button)"
+      ]
+    },
+    "el-icon": {
+      "prefix": "el-icon",
+      "body": [
+        "import { Icon } from '@jdpop/element-ui'",
+        "Vue.use(Icon)"
+      ]
+    }
+  }

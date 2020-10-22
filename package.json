@@ -1,6 +1,7 @@
 {
     "name": "vscode-element-shop-snippets",
     "displayName": "",
+    "publisher": "zjj",
     "description": "snippet",
     "version": "0.0.1",
     "engines": {
@@ -13,7 +14,15 @@
         "snippets": [
             {
                 "language": "typescript",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/components/imports.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/components/imports.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/basic.json"
             }
         ]
     }
