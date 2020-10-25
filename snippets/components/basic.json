@@ -72,7 +72,7 @@
     "el-row": {
       "prefix": "el-row",
       "body": [
-        "<el-row :gutter=\"${1:gutter}\" justify=\"${2|start,end,center,space-around,space-between|}\" align=\"${3|top,middle,bottom|}\">",
+        "<el-row :gutter=\"${1:0}\" justify=\"${2|start,end,center,space-around,space-between|}\" align=\"${3|top,middle,bottom|}\">",
         "\t${TM_SELECTED_TEXT:<el-col :span=\"${4:24}\" :offset=\"${5:0}\" :push=\"${6:0}\" :pull=\"${7:0}\">内容</el-col>}",
         "</el-row>"
       ],
