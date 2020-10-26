@@ -72,10 +72,101 @@
     "el-row": {
       "prefix": "el-row",
       "body": [
-        "<el-row :gutter=\"${1:0}\" justify=\"${2|start,end,center,space-around,space-between|}\" align=\"${3|top,middle,bottom|}\">",
-        "\t${TM_SELECTED_TEXT:<el-col :span=\"${4:24}\" :offset=\"${5:0}\" :push=\"${6:0}\" :pull=\"${7:0}\">内容</el-col>}",
+        "<el-row :gutter=\"${1:0}\" justify=\"${2|start,end,center,space-around,space-between|}\" align=\"${3|top,middle,bottom|}\" tag=\"${4:div}\">",
+        "\t${TM_SELECTED_TEXT:${5:内容}}",
         "</el-row>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    },
+    "el-row gutter": {
+      "prefix": "el-row gutter",
+      "body": [
+        "<el-row :gutter=\"${1:0}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-row>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    },
+    "el-row justify": {
+      "prefix": "el-row justify",
+      "body": [
+        "<el-row justify=\"${1|start,end,center,space-around,space-between|}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-row>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    },
+    "el-row align": {
+      "prefix": "el-row align",
+      "body": [
+        "<el-row align=\"${1|top,middle,bottom|}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-row>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    },
+    "el-row tag": {
+      "prefix": "el-row tag",
+      "body": [
+        "<el-row tag=\"${1:div}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-row>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    },
+    "el-col": {
+      "prefix": "el-col",
+      "body": [
+        "<el-col :span=\"${1:24}\" :offset=\"${2:0}\" :push=\"${3:0}\" :pull=\"${4:0}\" tag=\"${5:div}\">",
+        "\t${TM_SELECTED_TEXT:${6:内容}}",
+        "</el-col>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    },
+    "el-col span": {
+      "prefix": "el-col span",
+      "body": [
+        "<el-col :span=\"${1:24}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-col>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    },
+    "el-col offset": {
+      "prefix": "el-col offset",
+      "body": [
+        "<el-col :offset=\"${1:0}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-col>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    },
+    "el-col push": {
+      "prefix": "el-col push",
+      "body": [
+        "<el-col :push=\"${1:0}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-col>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    },
+    "el-col pull": {
+      "prefix": "el-col pull",
+      "body": [
+        "<el-col :pull=\"${1:0}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-col>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    },
+    "el-col tag": {
+      "prefix": "el-col tag",
+      "body": [
+        "<el-col tag=\"${1:div}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-col>"
+      ],
+      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
     }
+
   }
