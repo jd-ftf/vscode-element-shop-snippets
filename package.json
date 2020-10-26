@@ -1,6 +1,7 @@
 {
     "name": "vscode-element-shop-snippets",
     "displayName": "",
+    "publisher": "ftf",
     "description": "snippet",
     "version": "0.0.1",
     "engines": {
@@ -14,6 +15,10 @@
             {
                 "language": "typescript",
                 "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/form.json"
             }
         ]
     }
