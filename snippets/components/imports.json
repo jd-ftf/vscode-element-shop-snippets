@@ -1,0 +1,67 @@
+
+{
+    "el-row": {
+      "prefix": "el-row",
+      "body": [
+        "import { Row } from '@jdpop/element-ui'",
+        "Vue.use(Row)"
+      ]
+    },
+    "el-col": {
+      "prefix": "el-col",
+      "body": [
+        "import { Col } from '@jdpop/element-ui'",
+        "Vue.use(Col)"
+      ]
+    },
+    "el-button": {
+      "prefix": "el-button",
+      "body": [
+        "import { Button } from '@jdpop/element-ui'",
+        "Vue.use(Button)"
+      ]
+    },
+    "el-icon": {
+      "prefix": "el-icon",
+      "body": [
+        "import { Icon } from '@jdpop/element-ui'",
+        "Vue.use(Icon)"
+      ]
+    },
+    "el-container": {
+      "prefix": "el-container",
+      "body": [
+        "import { Container } from '@jdpop/element-ui'",
+        "Vue.use(Container)"
+      ]
+    },
+    "el-header": {
+      "prefix": "el-header",
+      "body": [
+        "import { Header } from '@jdpop/element-ui'",
+        "Vue.use(Header)"
+      ]
+    },
+    "el-footer": {
+      "prefix": "el-footer",
+      "body": [
+        "import { Footer } from '@jdpop/element-ui'",
+        "Vue.use(Footer)"
+      ]
+    },
+    "el-aside": {
+      "prefix": "el-aside",
+      "body": [
+        "import { Aside } from '@jdpop/element-ui'",
+        "Vue.use(Aside)"
+      ]
+    },
+    "el-main": {
+      "prefix": "el-main",
+      "body": [
+        "import { Main } from '@jdpop/element-ui'",
+        "Vue.use(Main)"
+      ]
+    }
+
+  }
