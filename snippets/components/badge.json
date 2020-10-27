@@ -1,0 +1,20 @@
+{
+  "el-badge default": {
+    "prefix": "el-badge default",
+    "body": [
+      "<el-badge :value=\"${1:12}\">",
+      "\t\t<el-button size=\"small\">评论</el-button>",
+      "</el-badge>"
+    ],
+    "description": "Badge 标记(https://ftf.jd.com/element-shop/#/zh-CN/component/badge)"
+  },
+  "el-badge is-dot": {
+    "prefix": "el-badge is-dot",
+    "body": [
+      "<el-badge is-dot :value=\"${1:12}\">",
+      "\t\t<el-button size=\"small\">评论</el-button>",
+      "</el-badge>"
+    ],
+    "description": "Badge 标记(https://ftf.jd.com/element-shop/#/zh-CN/component/badge)"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "el-upload default": {
+    "prefix": "el-upload default",
+    "body": [
+      "<el-upload",
+      "\tstyle=\"display: inline-block\"",
+      "\taction=\"${1:https://jsonplaceholder.typicode.com/posts/}\"",
+      "\t:on-preview=\"${2:handlePreview}\"",
+      "\t:on-remove=\"${3:handleRemove}\"",
+      "\t:before-remove=\"${4:beforeRemove}\"",
+      "\t:multiple",
+      "\t:on-downloade=\"${5:download}\"",
+      "\t:limit=\"${6:3}\"",
+      "\t:on-exceed=\"${7:handleExceed}\"",
+      "\t:file-list=\"${8:fileList}\">",
+      "\t\t<el-button functional>上传</el-button>",
+      "\t\t<div slot=\"tip\" class=\"el-upload__tip\">只能上传jpg/png文件，且不超过500kb</div>",
+      "</el-upload>"
+    ],
+    "description": "Upload 上传(https://ftf.jd.com/element-shop/#/zh-CN/component/upload)"
+  }
+}

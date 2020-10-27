@@ -1,0 +1,14 @@
+{
+  "el-tooltip default": {
+    "prefix": "el-tooltip default",
+    "body": [
+      "<el-tooltip",
+      "\teffect=\"${1|dark,light|}\"",
+      "\tplacement=\"${2|top,top-start,top-end,bottom,bottom-start,bottom-end,left,left-start,left-end,right,right-start,right-end|}\"",
+      "\tcontent=\"${3:提示文字}\"",
+      ">",
+      "</el-tooltip>"
+    ],
+    "description": "Tooltip 文字提示(https://ftf.jd.com/element-shop/#/zh-CN/component/tooltip)"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "el-input default": {
+    "prefix": "el-input default",
+    "body": [
+      "<el-input v-model=\"${1:input1}\" placeholder=\"${2:请输入内容}\">",
+      "</el-input>"
+    ],
+    "description": "Input 输入(https://ftf.jd.com/element-shop/#/zh-CN/component/input)"
+  },
+  "el-input disabled": {
+    "prefix": "el-input disabled",
+    "body": [
+      "<el-input ",
+      "\tplaceholder=\"${1:请输入内容}\"",
+      "\tv-model=\"${2:input1}\"",
+      "\t:disabled=\"${3:true}\">",
+      "</el-input>"
+    ],
+    "description": "Input 输入(https://ftf.jd.com/element-shop/#/zh-CN/component/input)"
+  },
+  "el-input clearable": {
+    "prefix": "el-input clearable",
+    "body": [
+      "<el-input ",
+      "\tplaceholder=\"${1:请输入内容}\"",
+      "\tv-model=\"${2:input1}\"",
+      "\tclearable>",
+      "</el-input>"
+    ],
+    "description": "Input 输入(https://ftf.jd.com/element-shop/#/zh-CN/component/input)"
+  },
+  "el-input show-password": {
+    "prefix": "el-input show-password",
+    "body": [
+      "<el-input ",
+      "\tplaceholder=\"${1:请输入内容}\"",
+      "\tv-model=\"${2:input1}\"",
+      "\tshow-password>",
+      "</el-input>"
+    ],
+    "description": "Input 输入(https://ftf.jd.com/element-shop/#/zh-CN/component/input)"
+  },
+  "el-input use textarea": {
+    "prefix": "el-input use textarea",
+    "body": [
+      "<el-input ",
+      "\ttype=\"textarea\"",
+      "\t:rows=\"2\"",
+      "\tplaceholder=\"${1:请输入内容}\"",
+      "\tv-model=\"${2:请输入内容}\"",
+      "</el-input>"
+    ],
+    "description": "Input 输入(https://ftf.jd.com/element-shop/#/zh-CN/component/input)"
+  },
+  "el-input show-search": {
+    "prefix": "el-input show-search",
+    "body": [
+      "<el-input ",
+      "\tplaceholder=\"${1:请输入内容}\"",
+      "\tv-model=\"${2:state1}\"",
+      "\t@search=\"${3:handleSearch}\"",
+      "\tclearable",
+      "\tshow-search",
+      "</el-input>"
+    ],
+    "description": "Input 输入(https://ftf.jd.com/element-shop/#/zh-CN/component/input)"
+  }
+}
