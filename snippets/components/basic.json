@@ -9,56 +9,49 @@
     "el-button plain": {
       "prefix": "el-button plain",
       "body": [
-        "<el-button plain>${TM_SELECTED_TEXT:${1:朴素按钮}}</el-button>"
+        "<el-button plain type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:朴素按钮}}</el-button>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
     },
     "el-button round": {
       "prefix": "el-button round",
       "body": [
-        "<el-button round>${TM_SELECTED_TEXT:${1:圆角按钮}}</el-button>"
+        "<el-button round type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:圆角按钮}}</el-button>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
     },
     "el-button circle": {
       "prefix": "el-button circle",
       "body": [
-        "<el-button circle>${TM_SELECTED_TEXT:${1:圆形按钮}}</el-button>"
+        "<el-button circle type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:圆形按钮}}</el-button>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
     },
     "el-button loading": {
       "prefix": "el-button loading",
       "body": [
-        "<el-button loading>${TM_SELECTED_TEXT:${1:加载中}}</el-button>"
+        "<el-button loading type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:加载中}}</el-button>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
     },
     "el-button disabled": {
       "prefix": "el-button disabled",
       "body": [
-        "<el-button disabled>${TM_SELECTED_TEXT:${1:按钮文字}}</el-button>"
-      ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
-    },
-    "el-button text": {
-      "prefix": "el-button text",
-      "body": [
-        "<el-button type=\"text\">${TM_SELECTED_TEXT:${1:按钮文字}}</el-button>"
+        "<el-button disabled type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:按钮文字}}</el-button>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
     },
     "el-button icon": {
       "prefix": "el-button icon",
       "body": [
-        "<el-button icon=\"el-icon-${1|info,error,success,warning,question,info-outline,error-outline,success-outline,warning-outline,question-outline,step,step-finish,camera,box-check,clock,date-simple,filter,back,arrow-left,arrow-right,arrow-down,arrow-up,caret-left,caret-bottom,caret-top,caret-right,d-arrow-left,d-arrow-right,minus,plus,remove,circle-plus,remove-outline,circle-plus-outline,close,check,circle-close,circle-check,circle-close-outline,circle-check-outline,zoom-out,zoom-in,d-caret,sort,sort-down,sort-up,tickets,document,goods,sold-out,news,message,date,printer,time,bell,mobile-phone,service,view,menu,more,more-outline,star-on,star-off,location,location-outline,phone,phone-outline,picture,picture-outline,delete,search,edit,edit-outline,rank,refresh,share,setting,upload,upload2,download,loading|}\">${2:按钮文字}</el-button>"
+        "<el-button icon=\"el-icon-${1|info,error,success,warning,question,info-outline,error-outline,success-outline,warning-outline,question-outline,step,step-finish,camera,box-check,clock,date-simple,filter,back,arrow-left,arrow-right,arrow-down,arrow-up,caret-left,caret-bottom,caret-top,caret-right,d-arrow-left,d-arrow-right,minus,plus,remove,circle-plus,remove-outline,circle-plus-outline,close,check,circle-close,circle-check,circle-close-outline,circle-check-outline,zoom-out,zoom-in,d-caret,sort,sort-down,sort-up,tickets,document,goods,sold-out,news,message,date,printer,time,bell,mobile-phone,service,view,menu,more,more-outline,star-on,star-off,location,location-outline,phone,phone-outline,picture,picture-outline,delete,search,edit,edit-outline,rank,refresh,share,setting,upload,upload2,download,loading|}\" type=\"${2|primary,success,warning,danger,info,text|}\" size=\"${3|small,large|}\">${4:按钮文字}</el-button>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
     },
     "el-button autofocus": {
       "prefix": "el-button autofocus",
       "body": [
-        "<el-button autofocus>${1:自动聚焦}</el-button>"
+        "<el-button autofocus type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${3:自动聚焦}</el-button>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
     },
@@ -72,8 +65,8 @@
     "el-row": {
       "prefix": "el-row",
       "body": [
-        "<el-row :gutter=\"${1:0}\" justify=\"${2|start,end,center,space-around,space-between|}\" align=\"${3|top,middle,bottom|}\" tag=\"${4:div}\">",
-        "\t${TM_SELECTED_TEXT:${5:内容}}",
+        "<el-row>",
+        "\t${TM_SELECTED_TEXT:${4:内容}}",
         "</el-row>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
@@ -117,35 +110,18 @@
     "el-col": {
       "prefix": "el-col",
       "body": [
-        "<el-col :span=\"${1:24}\" :offset=\"${2:0}\" :push=\"${3:0}\" :pull=\"${4:0}\" tag=\"${5:div}\">",
-        "\t${TM_SELECTED_TEXT:${6:内容}}",
+        "<el-col :span=\"${1:24}\" :offset=\"${2:0}\">",
+        "\t${TM_SELECTED_TEXT:${3:内容}}",
         "</el-col>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
     },
-    "el-col span": {
-      "prefix": "el-col span",
-      "body": [
-        "<el-col :span=\"${1:24}\">",
-        "\t${TM_SELECTED_TEXT:${2:内容}}",
-        "</el-col>"
-      ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
-    },
-    "el-col offset": {
-      "prefix": "el-col offset",
-      "body": [
-        "<el-col :offset=\"${1:0}\">",
-        "\t${TM_SELECTED_TEXT:${2:内容}}",
-        "</el-col>"
-      ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
-    },
+
     "el-col push": {
       "prefix": "el-col push",
       "body": [
-        "<el-col :push=\"${1:0}\">",
-        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "<el-col :push=\"${1:0}\" :span=\"${2:24}\" :offset=\"${3:0}\" >",
+        "\t${TM_SELECTED_TEXT:${4:内容}}",
         "</el-col>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
@@ -153,8 +129,8 @@
     "el-col pull": {
       "prefix": "el-col pull",
       "body": [
-        "<el-col :pull=\"${1:0}\">",
-        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "<el-col :pull=\"${1:0}\" :span=\"${2:24}\" :offset=\"${3:0}\">",
+        "\t${TM_SELECTED_TEXT:${4:内容}}",
         "</el-col>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
@@ -162,11 +138,42 @@
     "el-col tag": {
       "prefix": "el-col tag",
       "body": [
-        "<el-col tag=\"${1:div}\">",
-        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "<el-col tag=\"${1:div}\" :span=\"${2:24}\" :offset=\"${3:0}\">",
+        "\t${TM_SELECTED_TEXT:${4:内容}}",
         "</el-col>"
       ],
       "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    },
+    "el-content": {
+      "prefix": "el-content",
+      "body": [
+        "<el-content direction=\"${1|horizontal,vertical|}\">",
+        "\t${TM_SELECTED_TEXT:${2:内容}}",
+        "</el-content>"
+      ]
+    },
+    "el-header": {
+      "prefix": "el-header",
+      "body": [
+        "<el-header height=\"${1:60px}\">",
+        "\t${TM_SELECTED_TEXT:${2:头部}}",
+        "</el-header>"
+      ]
+    },
+    "el-aside": {
+      "prefix": "el-aside",
+      "body": [
+        "<el-aside width=\"${1:300px}\">",
+        "\t${TM_SELECTED_TEXT:${2:侧边栏}}",
+        "</el-aside>"
+      ]
+    },
+    "el-footer": {
+      "prefix": "el-footer",
+      "body": [
+        "<el-footer height=\"${1:60px}\">",
+        "\t${TM_SELECTED_TEXT:${2:底部}}",
+        "</el-footer>"
+      ]
     }
-
   }
