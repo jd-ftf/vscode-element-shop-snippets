@@ -27,5 +27,41 @@
         "import { Icon } from '@jdpop/element-ui'",
         "Vue.use(Icon)"
       ]
+    },
+    "el-container": {
+      "prefix": "el-container",
+      "body": [
+        "import { Container } from '@jdpop/element-ui'",
+        "Vue.use(Container)"
+      ]
+    },
+    "el-header": {
+      "prefix": "el-header",
+      "body": [
+        "import { Header } from '@jdpop/element-ui'",
+        "Vue.use(Header)"
+      ]
+    },
+    "el-footer": {
+      "prefix": "el-footer",
+      "body": [
+        "import { Footer } from '@jdpop/element-ui'",
+        "Vue.use(Footer)"
+      ]
+    },
+    "el-aside": {
+      "prefix": "el-aside",
+      "body": [
+        "import { Aside } from '@jdpop/element-ui'",
+        "Vue.use(Aside)"
+      ]
+    },
+    "el-main": {
+      "prefix": "el-main",
+      "body": [
+        "import { Main } from '@jdpop/element-ui'",
+        "Vue.use(Main)"
+      ]
     }
+
   }
