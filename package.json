@@ -23,6 +23,10 @@
             {
                 "language": "vue-html",
                 "path": "./snippets/components/basic.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/form.json"
             }
         ]
     }
