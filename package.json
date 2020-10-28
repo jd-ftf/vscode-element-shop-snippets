@@ -1,7 +1,7 @@
 {
     "name": "vscode-element-shop-snippets",
     "displayName": "",
-    "publisher": "jianglei",
+    "publisher": "ftf",
     "description": "snippet",
     "version": "0.0.1",
     "engines": {
@@ -59,6 +59,22 @@
             {
                 "language": "vue-html",
                 "path": "./snippets/components/timeline.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/imports.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/components/imports.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/basic.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/form.json"
             }
         ]
     }
