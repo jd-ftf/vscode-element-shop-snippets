@@ -1,0 +1,13 @@
+{
+  "el-carousel default": {
+    "prefix": "el-carousel default",
+    "body": [
+      "<el-carousel trigger=\"click\" indicator-position=\"${1|outside,none|}\" :interval=\"${2:5000}\">",
+      "\t\t<el-carousel-item v-for=\"item in 4\" :key=\"item\">",
+      "\t\t\t\t<h3>{{ item }}</h3>",
+      "\t\t</el-carousel-item>",
+      "</el-carousel>"
+    ],
+    "description": "Carousel 走马灯(https://ftf.jd.com/element-shop/#/zh-CN/component/carousel)"
+  }
+}

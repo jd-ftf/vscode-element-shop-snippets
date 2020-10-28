@@ -13,7 +13,55 @@
     "contributes": {
         "snippets": [
             {
+                "language": "vue-html",
+                "path": "./snippets/components/input.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/cascader.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/timepicker.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/upload.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/transfer.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/progress.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/badge.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/components/message.json"
+            },
+            {
                 "language": "typescript",
+                "path": "./snippets/components/message.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/tooltip.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/carousel.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components/timeline.json"
+            },
+            {
+                "language": "vue-html",
                 "path": "./snippets/components/imports.json"
             },
             {

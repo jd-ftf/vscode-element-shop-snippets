@@ -1,0 +1,13 @@
+{
+  "message": {
+    "prefix": "$message",
+    "body": [
+      "this.$message({",
+      "\t\tmessage: '${1:警告哦，这是一条警告消息}'",
+      "\t\ttype: '${2|success,warning,info,error|}'",
+      "\t])",
+      "});"
+    ],
+    "description": "Message 消息提示(https://ftf.jd.com/element-shop/#/zh-CN/component/badge)"
+  }
+}

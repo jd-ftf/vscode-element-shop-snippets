@@ -1,0 +1,23 @@
+{
+  "el-transfer default": {
+    "prefix": "el-transfer default",
+    "body": [
+      "<el-transfer v-model=\"${1:value1}\" :data=\"${2:data}\"></el-transfer>"
+    ],
+    "description": "Transfer 穿梭框(https://ftf.jd.com/element-shop/#/zh-CN/component/transfer)"
+  },
+  "el-transfer filterable": {
+    "prefix": "el-transfer filterable",
+    "body": [
+      "<el-transfer",
+      "\tfilterable",
+      "\t:filter-method=\"${1:filterMethod}\"",
+      "\t:filter-placeholder=\"${2:请输入城市拼音}\"",
+      "\tv-model=\"${3:value2}\"",
+      "\t:data=\"${4:data2}\"",
+      "\ttarget-order=\"${5|original,push,unshift|}\"",
+      "</el-transfer>"
+    ],
+    "description": "Transfer 穿梭框(https://ftf.jd.com/element-shop/#/zh-CN/component/transfer)"
+  }
+}

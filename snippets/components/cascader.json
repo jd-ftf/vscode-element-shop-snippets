@@ -1,0 +1,48 @@
+{
+  "el-cascader default": {
+    "prefix": "el-cascader default",
+    "body": [
+      "<el-cascader",
+      "\t:options=\"${1:options}\"",
+      "\tv-model=\"${2:selectedOptions}\"",
+      "\t@change=\"${3:handleChange}\">",
+      "</el-cascader>"
+    ],
+    "description": "Cascader 块级选择器(https://ftf.jd.com/element-shop/#/zh-CN/component/cascader)"
+  },
+  "el-cascader disabled": {
+    "prefix": "el-cascader disabled",
+    "body": [
+      "<el-cascader",
+      "\tv-model=\"${1:selectedOptions}\"",
+      "\t@change=\"${2:handleChange}\">",
+      "\tdisabled",
+      "</el-cascader>"
+    ],
+    "description": "Cascader 块级选择器(https://ftf.jd.com/element-shop/#/zh-CN/component/cascader)"
+  },
+  "el-cascader use hover": {
+    "prefix": "el-cascader use hover",
+    "body": [
+      "<el-cascader",
+      "\texpand-trigger=\"hover\"",
+      "\t:options=\"${1:options}\"",
+      "\tv-model=\"${2:selectedOptions}\"",
+      "\t@change=\"${3:handleChange}\">",
+      "</el-cascader>"
+    ],
+    "description": "Cascader 块级选择器(https://ftf.jd.com/element-shop/#/zh-CN/component/cascader)"
+  },
+  "el-cascader use size": {
+    "prefix": "el-cascader use size",
+    "body": [
+      "<el-cascader",
+      "\tsize=\"small\"",
+      "\t:options=\"${1:options}\"",
+      "\tv-model=\"${2:selectedOptions}\"",
+      "\t@change=\"${3:handleChange}\">",
+      "</el-cascader>"
+    ],
+    "description": "Cascader 块级选择器(https://ftf.jd.com/element-shop/#/zh-CN/component/cascader)"
+  }
+}

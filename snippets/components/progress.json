@@ -1,0 +1,16 @@
+{
+  "el-progress default": {
+    "prefix": "el-progress default",
+    "body": [
+      "<el-progress",
+      "\ttype=\"${1|line,circle|}\"",
+      "\t:percentage=\"${2:60}\"",
+      "\tstatus=\"${3|success,exception,text|}\">",
+      "\t:text-inside=\"${4:true}\"",
+      "\t:stroke-width=\"${5:18}\"",
+      "\tcolor=\"${6:#F0CD1D}\"",
+      "</el-progress>"
+    ],
+    "description": "Progress 进度条(https://ftf.jd.com/element-shop/#/zh-CN/component/progress)"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "el-timeline default": {
+    "prefix": "el-timeline default",
+    "body": [
+      "<el-timeline>",
+      "\t<el-timeline-item",
+      "\t\tv-for=\"(${1:activity}, ${2:index}) in ${3:activities2}\"",
+      "\t\t:key=\"${4:index}\"",
+      "\t\t:icon=\"${5:activity.icon}\"",
+      "\t\t:type=\"${6:activity.type}\"",
+      "\t\t:color=\"${7:activity.color}\"",
+      "\t\t:size=\"${8:activity.size}\"",
+      "\t\t:timestamp=\"${9:activity.timestamp}\">",
+      "\t</el-timeline-item>",
+      "</el-timeline>",
+      "$BLOCK_COMMENT_START vue-js for data",
+      "activities2: [{",
+      "\tcontent: '支持使用图标',",
+      "\ttimestamp: '2018-04-12 20:46',",
+      "\tsize: 'large',",
+      "\ttype: 'primary',",
+      "\ticon: 'el-icon-more'",
+      "}, {",
+      "\tcontent: '支持自定义颜色',",
+      "\ttimestamp: '2018-04-03 20:46',",
+      "\tcolor: '#0bbd87'",
+      "}, {",
+      "\tcontent: '支持自定义尺寸',",
+      "\ttimestamp: '2018-04-03 20:46',",
+      "\tsize: 'large'",
+      "}, {",
+      "\tcontent: '默认样式的节点',",
+      "\ttimestamp: '2018-04-03 20:46'",
+      "}]",
+      "$BLOCK_COMMENT_END"
+    ],
+    "description": "Timeline 时间线(https://ftf.jd.com/element-shop/#/zh-CN/component/timeline)"
+  }
+}

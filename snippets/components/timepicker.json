@@ -1,0 +1,67 @@
+{
+  "el-time-select default": {
+    "prefix": "el-time-select default",
+    "body": [
+      "<el-time-select",
+      "\tv-model=\"${1:value1}\"",
+      "\t:picker-options=\"{",
+      "\t\tstart: '${2:08:30}'",
+      "\t\tstep: '${3:00:15}'",
+      "\t\tend: '${4:18:30}'",
+      "\t}",
+      "\tplaceholder=\"${5:选择时间}\">",
+      "</el-time-select>"
+    ],
+    "description": "TimePicker 时间选择器(https://ftf.jd.com/element-shop/#/zh-CN/component/time-picker)"
+  },
+  "el-time-select disabled": {
+    "prefix": "el-time-select disabled",
+    "body": [
+      "<el-time-select",
+      "\tv-model=\"${1:value1}\"",
+      "\t:picker-options=\"{",
+      "\t\tstart: '${2:08:30}'",
+      "\t\tstep: '${3:00:15}'",
+      "\t\tend: '${4:18:30}'",
+      "\t}",
+      "\tdisabled",
+      "\tplaceholder=\"${5:选择时间}\">",
+      "</el-time-select>"
+    ],
+    "description": "TimePicker 时间选择器(https://ftf.jd.com/element-shop/#/zh-CN/component/time-picker)"
+  },
+  "el-time-select is-range": {
+    "prefix": "el-time-select is-range",
+    "body": [
+      "<el-time-select",
+      "is-range",
+      "\tv-model=\"${1:value1}\"",
+      "\t:picker-options=\"{",
+      "\t\tstart: '${2:08:30}'",
+      "\t\tstep: '${3:00:15}'",
+      "\t\tend: '${4:18:30}'",
+      "\t}",
+      "\tstart-placeholder=\"${5:开始时间}\"",
+      "\tend-placeholder=\"${6:结束时间}\"",
+      "\tplaceholder=\"${7:选择时间}\">",
+      "</el-time-select>"
+    ],
+    "description": "TimePicker 时间选择器(https://ftf.jd.com/element-shop/#/zh-CN/component/time-picker)"
+  },
+  "el-time-select selectableRange": {
+    "prefix": "el-time-select selectableRange",
+    "body": [
+      "<el-time-select",
+      "is-range",
+      "\tv-model=\"${1:value1}\"",
+      "\t:picker-options=\"{",
+      "\t\tselectableRange: '${2:18:30:00} - ${3:20:30:00}'",
+      "\t}",
+      "\tstart-placeholder=\"${5:开始时间}\"",
+      "\tend-placeholder=\"${6:结束时间}\"",
+      "\tplaceholder=\"${7:选择时间}\">",
+      "</el-time-select>"
+    ],
+    "description": "TimePicker 时间选择器(https://ftf.jd.com/element-shop/#/zh-CN/component/time-picker)"
+  }
+}
