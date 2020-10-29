@@ -1,0 +1,94 @@
+{
+  "el-checkbox": {
+    "prefix": "el-checkbox",
+    "body": [
+      " <el-checkbox v-model=\"${1:checked}\">${2:备选项}</el-checkbox>"
+    ],
+    "description": "Checkbox 多选框(http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/checkbox)"
+  },
+  "el-checkbox disabled": {
+    "prefix": "el-checkbox disabled",
+    "body": [
+      " <el-checkbox v-model=\"${1:checked}\" ${2:disabled}>${3:备选项}</el-checkbox>"
+    ],
+    "description": "Checkbox 多选框(http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/checkbox)"
+  },
+  "el-checkbox-group": {
+    "prefix": "el-checkbox-group",
+    "body": [
+      "<el-checkbox-group v-model=\"${1:checkList}\">",
+      "\t <el-checkbox label=\"${2:复选框 A}\"></el-checkbox>",
+      "</el-checkbox-group>"
+    ],
+    "description": "Checkbox 多选框(http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/checkbox)"
+  },
+  "el-input-number": {
+    "prefix": "el-input-number",
+    "body": [
+      "<el-input-number v-model=\"${1:num1}\" @change=\"${2:handleChange}\" :min=\"${3:1}\" :max=\"${4:10}\" label=\"${5:描述文字}\"></el-input-number>"
+    ],
+    "description": "InputNumber 计数器(http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/input-number)"
+  },
+  "el-cascader": {
+    "prefix": "el-cascader",
+    "body": [
+      "<el-cascader",
+      "\t:options=\"${1:options}\"",
+      "\tv-model=\"${2:selectedOptions}\"",
+      "\t@change=\"${3:handleChange}\">",
+      "</el-cascader>"
+    ],
+    "description": "Cascader 级联选择器(http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/cascader)"
+  },
+  "el-cascader with hover": {
+    "prefix": "el-cascader with hover",
+    "body": [
+      "<el-cascader",
+      "\texpand-trigger=\"${1:hover}\"",
+      "\t:options=\"${2:options}\"",
+      "\tv-model=\"${3:selectedOptions}\"",
+      "\t@change=\"${4:handleChange}\">",
+      "</el-cascader>"
+    ],
+    "description": "Cascader 级联选择器(http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/cascader)"
+  },
+  "el-slider": {
+    "prefix": "el-slider",
+    "body": [
+      "<el-slider v-model=\"${1:value1}\"></el-slider>"
+    ],
+    "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/slider"
+  },
+  "el-slider disabled": {
+    "prefix": "el-slider disabled",
+    "body": [
+      "<el-slider v-model=\"${1:value1}\" ${2:disabled}></el-slider>"
+    ],
+    "description": "Slider 滑块(http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/slider)"
+  },
+  "el-color-picker": {
+    "prefix": "el-color-picker",
+    "body": [
+      "<el-color-picker v-model=\"${1:color1}\"></el-color-picker>"
+    ],
+    "description": "ColorPicker 颜色选择器(http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/color-picker)"
+  },
+  "el-form": {
+    "prefix": "el-form",
+    "body": [
+      "<el-form ref=\"form\" label-position=\"left\" :model=\"form\" label-width=\"76px\">",
+      "\t<el-form-item label=\"normal\">",
+      "\t\t<el-input v-model=\"form.name\" placeholder=\"请输入\"></el-input>",
+      "\t</el-form-item>",
+      "\t<el-form-item label=\"finish\">",
+      "\t\t<el-input v-model=\"form.name2\" placeholder=\"请输入\" clearable></el-input>",
+      "\t</el-form-item>",
+      "\t<el-form-item label=\"disabled\">",
+      "\t\t<el-input v-model=\"form.name3\" placeholder=\"请输入\" disabled></el-input>",
+      "\t</el-form-item>",
+      "</el-form>"
+    ],
+    "description": "Form 表单(http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/form)"
+  }
+}
+

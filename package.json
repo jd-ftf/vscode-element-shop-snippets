@@ -74,8 +74,12 @@
             },
             {
                 "language": "vue-html",
-                "path": "./snippets/form.json"
-            }
+                "path": "./snippets/components/form.json"
+            },
+            {
+              "language": "vue-html",
+              "path": "./snippets/components/navigation.json"
+          }
         ]
     }
 }
