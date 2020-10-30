@@ -1,105 +1,105 @@
 
 {
     "el-row": {
-      "prefix": "el-row",
+      "prefix": "import el-row",
       "body": [
         "import { Row } from '@jdpop/element-ui'",
         "Vue.use(Row)"
       ]
     },
     "el-col": {
-      "prefix": "el-col",
+      "prefix": "import el-col",
       "body": [
         "import { Col } from '@jdpop/element-ui'",
         "Vue.use(Col)"
       ]
     },
     "el-button": {
-      "prefix": "el-button",
+      "prefix": "import el-button",
       "body": [
         "import { Button } from '@jdpop/element-ui'",
         "Vue.use(Button)"
       ]
     },
     "el-icon": {
-      "prefix": "el-icon",
+      "prefix": "import el-icon",
       "body": [
         "import { Icon } from '@jdpop/element-ui'",
         "Vue.use(Icon)"
       ]
     },
     "el-container": {
-      "prefix": "el-container",
+      "prefix": "import el-container",
       "body": [
         "import { Container } from '@jdpop/element-ui'",
         "Vue.use(Container)"
       ]
     },
     "el-header": {
-      "prefix": "el-header",
+      "prefix": "import el-header",
       "body": [
         "import { Header } from '@jdpop/element-ui'",
         "Vue.use(Header)"
       ]
     },
     "el-footer": {
-      "prefix": "el-footer",
+      "prefix": "import el-footer",
       "body": [
         "import { Footer } from '@jdpop/element-ui'",
         "Vue.use(Footer)"
       ]
     },
     "el-aside": {
-      "prefix": "el-aside",
+      "prefix": "import el-aside",
       "body": [
         "import { Aside } from '@jdpop/element-ui'",
         "Vue.use(Aside)"
       ]
     },
     "el-main": {
-      "prefix": "el-main",
+      "prefix": "import el-main",
       "body": [
         "import { Main } from '@jdpop/element-ui'",
         "Vue.use(Main)"
       ]
     },
     "el-table": {
-      "prefix": "el-table",
+      "prefix": "import el-table",
       "body": [
         "import { Table } from '@jdpop/element-ui'",
         "Vue.use(Table)"
       ]
     },
     "el-tag": {
-      "prefix": "el-tag",
+      "prefix": "import el-tag",
       "body": [
         "import { Tag } from '@jdpop/element-ui'",
         "Vue.use(Tag)"
       ]
     },
     "el-progress": {
-      "prefix": "el-progress",
+      "prefix": "import el-progress",
       "body": [
         "import { Progress } from '@jdpop/element-ui'",
         "Vue.use(Progress)"
       ]
     },
     "el-tree": {
-      "prefix": "el-tree",
+      "prefix": "import el-tree",
       "body": [
         "import { Tree } from '@jdpop/element-ui'",
         "Vue.use(Tree)"
       ]
     },
     "el-pagination": {
-      "prefix": "el-pagination",
+      "prefix": "import el-pagination",
       "body": [
         "import { Pagination } from '@jdpop/element-ui'",
         "Vue.use(Pagination)"
       ]
     },
     "el-badge": {
-      "prefix": "el-badge",
+      "prefix": "import el-badge",
       "body": [
         "import { Badge } from '@jdpop/element-ui'",
         "Vue.use(Badge)"
