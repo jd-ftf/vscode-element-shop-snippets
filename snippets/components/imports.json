@@ -62,6 +62,48 @@
         "import { Main } from '@jdpop/element-ui'",
         "Vue.use(Main)"
       ]
+    },
+    "el-table": {
+      "prefix": "el-table",
+      "body": [
+        "import { Table } from '@jdpop/element-ui'",
+        "Vue.use(Table)"
+      ]
+    },
+    "el-tag": {
+      "prefix": "el-tag",
+      "body": [
+        "import { Tag } from '@jdpop/element-ui'",
+        "Vue.use(Tag)"
+      ]
+    },
+    "el-progress": {
+      "prefix": "el-progress",
+      "body": [
+        "import { Progress } from '@jdpop/element-ui'",
+        "Vue.use(Progress)"
+      ]
+    },
+    "el-tree": {
+      "prefix": "el-tree",
+      "body": [
+        "import { Tree } from '@jdpop/element-ui'",
+        "Vue.use(Tree)"
+      ]
+    },
+    "el-pagination": {
+      "prefix": "el-pagination",
+      "body": [
+        "import { Pagination } from '@jdpop/element-ui'",
+        "Vue.use(Pagination)"
+      ]
+    },
+    "el-badge": {
+      "prefix": "el-badge",
+      "body": [
+        "import { Badge } from '@jdpop/element-ui'",
+        "Vue.use(Badge)"
+      ]
     }
 
   }

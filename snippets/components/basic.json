@@ -4,63 +4,64 @@
       "body": [
         "<el-button type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:按钮文字}}</el-button>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
+    "description": "Button 按钮(https://ftf.jd.com/element-shop/#/zh-CN/component/button)"
+      
     },
     "el-button plain": {
       "prefix": "el-button plain",
       "body": [
         "<el-button plain type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:朴素按钮}}</el-button>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
+    "description": "Button 按钮(https://ftf.jd.com/element-shop/#/zh-CN/component/button)"
     },
     "el-button round": {
       "prefix": "el-button round",
       "body": [
         "<el-button round type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:圆角按钮}}</el-button>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
+    "description": "Button 按钮(https://ftf.jd.com/element-shop/#/zh-CN/component/button)"
     },
     "el-button circle": {
       "prefix": "el-button circle",
       "body": [
         "<el-button circle type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:圆形按钮}}</el-button>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
+    "description": "Button 按钮(https://ftf.jd.com/element-shop/#/zh-CN/component/button)"
     },
     "el-button loading": {
       "prefix": "el-button loading",
       "body": [
         "<el-button loading type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:加载中}}</el-button>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
+    "description": "Button 按钮(https://ftf.jd.com/element-shop/#/zh-CN/component/button)"
     },
     "el-button disabled": {
       "prefix": "el-button disabled",
       "body": [
         "<el-button disabled type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${TM_SELECTED_TEXT:${3:按钮文字}}</el-button>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
+    "description": "Button 按钮(https://ftf.jd.com/element-shop/#/zh-CN/component/button)"
     },
     "el-button icon": {
       "prefix": "el-button icon",
       "body": [
         "<el-button icon=\"el-icon-${1|info,error,success,warning,question,info-outline,error-outline,success-outline,warning-outline,question-outline,step,step-finish,camera,box-check,clock,date-simple,filter,back,arrow-left,arrow-right,arrow-down,arrow-up,caret-left,caret-bottom,caret-top,caret-right,d-arrow-left,d-arrow-right,minus,plus,remove,circle-plus,remove-outline,circle-plus-outline,close,check,circle-close,circle-check,circle-close-outline,circle-check-outline,zoom-out,zoom-in,d-caret,sort,sort-down,sort-up,tickets,document,goods,sold-out,news,message,date,printer,time,bell,mobile-phone,service,view,menu,more,more-outline,star-on,star-off,location,location-outline,phone,phone-outline,picture,picture-outline,delete,search,edit,edit-outline,rank,refresh,share,setting,upload,upload2,download,loading|}\" type=\"${2|primary,success,warning,danger,info,text|}\" size=\"${3|small,large|}\">${4:按钮文字}</el-button>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
+    "description": "Button 按钮(https://ftf.jd.com/element-shop/#/zh-CN/component/button)"
     },
     "el-button autofocus": {
       "prefix": "el-button autofocus",
       "body": [
         "<el-button autofocus type=\"${1|primary,success,warning,danger,info,text|}\" size=\"${2|small,large|}\">${3:自动聚焦}</el-button>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
+    "description": "Button 按钮(https://ftf.jd.com/element-shop/#/zh-CN/component/button)"
     },
     "el-icon i": {
       "prefix": "el-icon i",
       "body": [
         "<i class=\"el-icon-${1|info,error,success,warning,question,info-outline,error-outline,success-outline,warning-outline,question-outline,step,step-finish,camera,box-check,clock,date-simple,filter,back,arrow-left,arrow-right,arrow-down,arrow-up,caret-left,caret-bottom,caret-top,caret-right,d-arrow-left,d-arrow-right,minus,plus,remove,circle-plus,remove-outline,circle-plus-outline,close,check,circle-close,circle-check,circle-close-outline,circle-check-outline,zoom-out,zoom-in,d-caret,sort,sort-down,sort-up,tickets,document,goods,sold-out,news,message,date,printer,time,bell,mobile-phone,service,view,menu,more,more-outline,star-on,star-off,location,location-outline,phone,phone-outline,picture,picture-outline,delete,search,edit,edit-outline,rank,refresh,share,setting,upload,upload2,download,loading|}\"></i>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/button"
+    "description": "Icon 图标(https://ftf.jd.com/element-shop/#/zh-CN/component/icon)"
     },
     "el-row": {
       "prefix": "el-row",
@@ -69,7 +70,7 @@
         "\t${TM_SELECTED_TEXT:${4:内容}}",
         "</el-row>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    "description": "Row 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/layout)"
     },
     "el-row gutter": {
       "prefix": "el-row gutter",
@@ -78,7 +79,7 @@
         "\t${TM_SELECTED_TEXT:${2:内容}}",
         "</el-row>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    "description": "Row 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/layout)"
     },
     "el-row justify": {
       "prefix": "el-row justify",
@@ -87,7 +88,7 @@
         "\t${TM_SELECTED_TEXT:${2:内容}}",
         "</el-row>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    "description": "Row 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/layout)"
     },
     "el-row align": {
       "prefix": "el-row align",
@@ -96,7 +97,7 @@
         "\t${TM_SELECTED_TEXT:${2:内容}}",
         "</el-row>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    "description": "Row 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/layout)"
     },
     "el-row tag": {
       "prefix": "el-row tag",
@@ -105,7 +106,7 @@
         "\t${TM_SELECTED_TEXT:${2:内容}}",
         "</el-row>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/layout"
+    "description": "Row 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/layout)"
     },
     "el-col": {
       "prefix": "el-col",
@@ -114,7 +115,7 @@
         "\t${TM_SELECTED_TEXT:${3:内容}}",
         "</el-col>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    "description": "Col 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/layout)"
     },
 
     "el-col push": {
@@ -124,7 +125,7 @@
         "\t${TM_SELECTED_TEXT:${4:内容}}",
         "</el-col>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    "description": "Col 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/layout)"
     },
     "el-col pull": {
       "prefix": "el-col pull",
@@ -133,7 +134,7 @@
         "\t${TM_SELECTED_TEXT:${4:内容}}",
         "</el-col>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    "description": "Col 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/layout)"
     },
     "el-col tag": {
       "prefix": "el-col tag",
@@ -142,7 +143,7 @@
         "\t${TM_SELECTED_TEXT:${4:内容}}",
         "</el-col>"
       ],
-      "description": "http://ui.shop.jd.com/docs/element-ui/#/zh-CN/component/col"
+    "description": "Col 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/layout)"
     },
     "el-container": {
       "prefix": "el-container",
@@ -150,7 +151,8 @@
         "<el-container direction=\"${1|horizontal,vertical|}\">",
         "\t${TM_SELECTED_TEXT:${2:内容}}",
         "</el-container>"
-      ]
+      ],
+    "description": "Container 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/container)"
     },
     "el-header": {
       "prefix": "el-header",
@@ -158,7 +160,8 @@
         "<el-header height=\"${1:60px}\">",
         "\t${TM_SELECTED_TEXT:${2:头部}}",
         "</el-header>"
-      ]
+      ],
+    "description": "Header 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/container)"
     },
     "el-aside": {
       "prefix": "el-aside",
@@ -166,7 +169,8 @@
         "<el-aside width=\"${1:300px}\">",
         "\t${TM_SELECTED_TEXT:${2:侧边栏}}",
         "</el-aside>"
-      ]
+      ],
+    "description": "Aside 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/container)"
     },
     "el-footer": {
       "prefix": "el-footer",
@@ -174,7 +178,8 @@
         "<el-footer height=\"${1:60px}\">",
         "\t${TM_SELECTED_TEXT:${2:底部}}",
         "</el-footer>"
-      ]
+      ],
+    "description": "Footer 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/container)"
     },
     "el-main": {
       "prefix": "el-main",
@@ -182,6 +187,7 @@
         "<el-main>",
         "\t${TM_SELECTED_TEXT:${1:主要区域}}",
         "</el-main>"
-      ]
+      ],
+    "description": "Main 布局(https://ftf.jd.com/element-shop/#/zh-CN/component/container)"
     }
   }

@@ -1,0 +1,225 @@
+{
+    "el-badge default": {
+      "prefix": "el-badge default",
+      "body": [
+        "<el-badge :value=\"${1:12}\">",
+        "\t<el-button size=\"small\">评论</el-button>",
+        "</el-badge>"
+      ],
+      "description": "Badge 标记(https://ftf.jd.com/element-shop/#/zh-CN/component/badge)"
+    },
+    "el-badge is-dot": {
+      "prefix": "el-badge is-dot",
+      "body": [
+        "<el-badge is-dot :value=\"${1:12}\">",
+        "\t<el-button size=\"small\">评论</el-button>",
+        "</el-badge>"
+      ],
+      "description": "Badge 标记(https://ftf.jd.com/element-shop/#/zh-CN/component/badge)"
+    },
+    "el-pagination": {
+      "prefix": "el-pagination",
+      "body": [
+        "<el-pagination",
+        "\t@size-change=\"${1:handleSizeChange}\"",
+        "\t@current-change=\"${2:handleCurrentChange}\"",
+        "\t:current-page=\"${3:currentPage}\"",
+        "\t:page-sizes=\"${4:[100, 200, 300, 400]}\"",
+        "\t:page-size=\"${5:100}\"",
+        "\t:layout=\"${5:total, prev, pager, next, sizes, jumper}\"",
+        "\t:total=\"${6:400}\">",
+        "</el-pagination>"
+      ],
+      "description":"Pagination 分页(https://ftf.jd.com/element-shop/#/zh-CN/component/pagination)"
+    },
+    "el-pagination easy": {
+        "prefix": "el-pagination easy",
+        "body": [
+          "<el-pagination",
+          "\t@current-change=\"${2:handleCurrentChange}\"",
+          "\t:current-page=\"${3:currentPage}\"",
+          "\tsmall",
+          "\t:total=\"${1:100}\">",
+          "</el-pagination>"
+        ],
+        "description":"Pagination 分页(https://ftf.jd.com/element-shop/#/zh-CN/component/pagination)"
+    },
+    "el-tree": {
+        "prefix": "el-tree",
+        "body": [
+            "<el-tree",
+            "\t:data=\"${1:data}\"",
+            "\t:props=\"${2:defaultProps}\"",
+            "\t@node-click=\"${3:handleNodeClick}\"",
+            "\tnode-key=\"${4:id}\"",
+            "\t:default-expanded-keys=\"${5:[1, 2]}\">",
+            "</el-tree>"
+        ],
+        "description":"Tree 树形控件(https://ftf.jd.com/element-shop/#/zh-CN/component/tree)"
+    },
+    "el-tree icon": {
+        "prefix": "el-tree icon",
+        "body": [
+          "<el-tree",
+          "\t:data=\"${1:data}\"",
+          "\t:props=\"${2:defaultProps}\"",
+          "\t@node-click=\"${3:handleNodeClick}\"",
+          "\tnode-key=\"${4:id}\"",
+          "\t:default-expanded-keys=\"${5:[1, 2]}\"",
+          "\t${6:pane}>",  
+          "</el-tree>"
+        ],
+        "description":"Tree 树形控件(https://ftf.jd.com/element-shop/#/zh-CN/component/tree)"
+    },
+    "el-tree choice": {
+      "prefix": "el-tree choice",
+      "body": [
+          "<el-tree",
+          "\t:props=\"${1:props}\"",
+          "\t:load=\"${2:loadNode}\"",
+          "\t${3:lazy}",
+          "\t${4:show-checkbox}",
+          "\t@check-change=\"${handleCheckChange}\">",
+          "</el-tree>"
+      ],
+      "description":"Tree 树形控件(https://ftf.jd.com/element-shop/#/zh-CN/component/tree)"
+    },
+    "el-tree draggable": {
+      "prefix": "el-tree draggable",
+      "body": [
+        "<el-tree",
+        "\t:data=\"${1:data}\"",
+        "\tnode-key=\"${2:id}\"",
+        "\t${3:default-expand-all}",
+        "\t@node-drag-start=\"${4:handleDragStart}\"",
+        "\t@node-drag-enter=\"${5:handleDragEnter}\"",
+        "\t@node-drag-leave=\"${6:handleDragLeave}\"",
+        "\t@node-drag-over=\"${7:handleDragOver}\"",
+        "\t@node-drag-end=\"${8:handleDragEnd}\"",
+        "\t@node-drop=\"${9:handleDrop}\"",
+        "\t${10:draggable}",
+        "\t:allow-drop=\"${11:allowDrop}\"",
+        "\t:allow-drag=\"${12:allowDrag}\">",
+        "</el-tree>"
+      ],
+      "description":"Tree 树形控件(https://ftf.jd.com/element-shop/#/zh-CN/component/tree)"
+    },
+    "el-progress default": {
+      "prefix": "el-progress default",
+      "body": [
+        "<el-progress",
+        "\ttype=\"${1|line,circle|}\"",
+        "\t:percentage=\"${2:60}\"",
+        "\tstatus=\"${3|success,exception,text|}\"",
+        "\t:text-inside=\"${4:true}\"",
+        "\t:stroke-width=\"${5:18}\"",
+        "\tcolor=\"${6:#F0CD1D}\">",
+        "</el-progress>"
+      ],
+      "description": "Progress 进度条(https://ftf.jd.com/element-shop/#/zh-CN/component/progress)"
+    },
+    "el-tag": {
+      "prefix": "el-tag",
+      "body": [
+        "<el-tag",
+        "\t:size=\"${1|mini,small,medium|}\"",
+        "\ttype=\"${2|success,info,warning,danger|}\">",
+        "\t${TM_SELECTED_TEXT:${3:标签}}",
+        "</el-tag>"
+      ],
+      "description": "Tag 标签(https://ftf.jd.com/element-shop/#/zh-CN/component/tag)"
+    },
+    "el-tag list": {
+      "prefix": "el-tag list",
+      "body": [
+        "<el-tag",
+        "\tv-for=\"${1:tag in tags}\"",
+        "\t:key=\"${2:tag}\"",
+        "\t:size=\"${3|mini,small,medium|}\"",
+        "\ttype=\"${4|success,info,warning,danger|}\"",
+        "\tcloseable",
+        "\t@close=\"${5:handleClose(tag)}\">",
+        "\t${TM_SELECTED_TEXT:${6:{{tag.name}}}}",
+        "</el-tag>"
+      ],
+      "description": "Tag 标签(https://ftf.jd.com/element-shop/#/zh-CN/component/tag)"
+    },
+    "el-table": {
+      "prefix": "el-table",
+      "body": [
+        "<el-table",
+        "\tdata=\"${1:tableData}\"",
+        "\t${2:border}",
+        "\tstyle=\"${3:width:100%}\">",
+        "\t<el-table-column",
+        "\t\tprop=\"${4:date}\"",
+        "\t\tlabel=\"${5:日期}\"",
+        "\t\twidth=\"${6:180}\">",
+        "\t</el-table-column>",
+        "\t<el-table-column",
+        "\t\tprop=\"${7:name}\"",
+        "\t\tlabel=\"${8:姓名}\"",
+        "\t\twidth=\"${9:180}\">",
+        "\t</el-table-column>",
+        "\t<el-table-column",
+        "\t\tprop=\"${10:address}\"",
+        "\t\tlabel=\"${11:地址}\">",
+        "\t</el-table-column>",
+        "</el-table>"
+      ],
+      "description": "Table 表格(https://ftf.jd.com/element-shop/#/zh-CN/component/table)"
+    },
+    "el-table fixed": {
+      "prefix": "el-table fixed",
+      "body": [
+        "<el-table",
+        "\tdata=\"${1:tableData}\"",
+        "\t${2:border}",  
+        "\theight=\"${3:300}\"",
+        "\tstyle=\"${4:width:100%}\">",
+        "\t<el-table-column",
+        "\t\t${5:fixed}",
+        "\t\tprop=\"${6:date}\"",
+        "\t\tlabel=\"${7:日期}\"",
+        "\t\twidth=\"${8:180}\">",
+        "\t</el-table-column>",
+        "\t<el-table-column",
+        "\t\tprop=\"${9:name}\"",
+        "\t\tlabel=\"${10:姓名}\"",
+        "\t\twidth=\"${11:180}\">",
+        "\t</el-table-column>",
+        "\t<el-table-column",
+        "\t\tprop=\"${12:address}\"",
+        "\t\tlabel=\"${13:地址}\">",
+        "\t</el-table-column>",
+        "</el-table>"
+      ],
+      "description": "Table 表格(https://ftf.jd.com/element-shop/#/zh-CN/component/table)"
+    },
+    "el-table sort": {
+      "prefix": "el-table sort",
+      "body": [
+        "<el-table",
+        "\tdata=\"${1:tableData}\"",
+        "\t${2:border}",
+        "\t:default-sort=\"${3:{prop:'data',order:'descending'}}\"",
+        "\tstyle=\"${4:width:100%}\">",
+        "\t<el-table-column",
+        "\t\tprop=\"${5:date}\"",
+        "\t\tlabel=\"${6:日期}\"",
+        "\t\twidth=\"${7:180}\">",
+        "\t</el-table-column>",
+        "\t<el-table-column",
+        "\t\tprop=\"${8:name}\"",
+        "\t\tlabel=\"${9:姓名}\"",
+        "\t\twidth=\"${10:180}\">",
+        "\t</el-table-column>",
+        "\t<el-table-column",
+        "\t\tprop=\"${11:address}\"",
+        "\t\tlabel=\"${12:地址}\">",
+        "\t</el-table-column>",
+        "</el-table>"
+      ],
+      "description": "Table 表格(https://ftf.jd.com/element-shop/#/zh-CN/component/table)"
+    }
+  }
